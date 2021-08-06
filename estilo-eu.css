@@ -46,13 +46,15 @@ nav > ul > li > a:hover {
 
 main {
     text-align: center;
-    padding: 60px;
-    font-size: 2em;
+    padding: 20px;
+    font-size: 24px;
     text-shadow: 3px 4px 5px rgba(0, 0, 0, 0.493);
     background-color: #F2F2F2;
-    width: 600px;
     margin: auto;
     border-radius: 1px 1px 1px 1px;
+
+    max-width: 800px;
+    min-width: 250px;
 }
 
 main > h1 {
@@ -134,7 +136,7 @@ abbr {
 
 footer {
     background-color: black;
-    text-align: center;
+    text-align: center;  
 }
 
 footer > nav > a > img{
