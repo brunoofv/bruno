@@ -90,12 +90,6 @@ main > span > h3 > mark > a:hover {
     color: rgb(41, 41, 41);
 }
 
-main > abbr > img:hover {
-    margin: auto;
-    border-radius: 350px;
-    box-shadow: 4px 4px 15px black;
-}
-
 main > img {
     text-align: left;
 }
@@ -130,6 +124,18 @@ mark {
 
 abbr {
     text-decoration: underline;
+}
+
+p#id {
+    text-align: center;
+    color: white;
+    margin: 0px;
+}
+
+picture > img:hover {
+    margin: auto;
+    border-radius: 350px;
+    box-shadow: 4px 4px 15px black;
 }
 
 /*footer*/
